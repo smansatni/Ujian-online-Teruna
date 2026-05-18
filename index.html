@@ -2,7 +2,8 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 <title>Ujian SMA Teruna</title>
 
@@ -13,26 +14,22 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background: #fff;
     -webkit-overflow-scrolling: touch;
 }
 
 .iframe-container {
-    position: fixed;
-    insert: 0 ;
-    
     width: 100%;
-    height: 100dvh;
+    height: 100vh;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
 }
 
 iframe {
+    display: block;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     border: none;
     overflow: auto;
-    -webkit-overflow-scrolling: touch;
 }
 </style>
 </head>
@@ -42,9 +39,7 @@ iframe {
 <div class="iframe-container">
     <iframe
         src="https://script.google.com/macros/s/AKfycbyWPK6rnm8r2MINAkqw-QTZgw5PIvuqlmAwntAhaBonURmkX-xOPj6EK13q3f0PkEVZ0w/exec"
-        allow="camera; microphone; geolocation; fullscreen" 
-        scrolling="yes">
-        
+        allow="camera; microphone; geolocation; fullscreen">
     </iframe>
 </div>
 
